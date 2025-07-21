@@ -1147,7 +1147,7 @@ Information So Far:
                     if (result.csvResult) {
                         textarea.value += '\n\n=== CSV Output (TEMPORARY) ===\n' + result.csvResult;
 
-                        // NEW: Add SSOC mapping output below CSV
+                        // Add SSOC mapping output below CSV
                         const ssocMappings = convertSSOCEntries(result.csvResult);
                         if (ssocMappings) {
                             textarea.value += '\n\n=== SSOC Category Mapping ===\n' + ssocMappings;
